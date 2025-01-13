@@ -198,8 +198,9 @@ ol {
 
 .content__list {
   position: relative;
-  height: 298px;
+  height: 300px;
   margin-top: 20px;
+
   /* Убираем горизонтальный скролл блока карточек, возникающий при уменьшении разрешения экрана */
 
   overflow-y: auto;
@@ -234,7 +235,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  max-width: 194px;
+  max-width: px;
   max-height: 103px;
   object-fit: cover;
   object-position: center;
@@ -243,6 +244,9 @@ ol {
 .content__video-card-description-container {
   width: 100%;
   padding: 2px;
+}
+.content__list::-webkit-scrollbar {
+  display: none;
 }
 
 .content__video-card-title {
